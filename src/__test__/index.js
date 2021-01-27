@@ -4,4 +4,4 @@ import index from 'src/index';
 
 const server = index.app;
 
-const { expect } = chai;
+const {expect} = chai;
