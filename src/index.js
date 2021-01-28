@@ -63,7 +63,3 @@ const server = app.listen(PORT, () => {
 });
 
 export default {app};
-
-// const path = require("path");
-// const jsConfig = require("./jsconfig.json");
-// root: [path.resolve(jsConfig.compilerOptions.baseUrl)],

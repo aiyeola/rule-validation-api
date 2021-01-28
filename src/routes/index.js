@@ -8,6 +8,6 @@ const router = express();
 
 router.route('/').get(Controllers.get).all(method);
 
-router.route('/validate-rule').post(Controllers.post).all(method);
+router.route('/validate-rule').post(Validate.validateRule, Controllers.post).all(method);
 
 export default router;

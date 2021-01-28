@@ -7,11 +7,11 @@ class Response {
     });
   }
 
-  static Error(res, message) {
+  static Error(res, message, data = null) {
     return res.status(400).json({
       message,
       status: 'error',
-      data: null,
+      data,
     });
   }
 }
