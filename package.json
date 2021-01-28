@@ -9,22 +9,21 @@
     "build": "rm -rf ./src/build && babel ./src/. --out-dir ./src/build --copy-files",
     "start": "node ./src/build/index.js",
     "start:dev": "nodemon --exec babel-node src/index.js",
-    "test": "cross-env NODE_ENV=test mocha --require @babel/register ./src/test/*.js --timeout 60000 --exit",
-    "cover": "nyc --reporter=html --reporter=text yarn test",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "cross-env NODE_ENV=test mocha --require @babel/register ./src/__test__/*.js --timeout 60000 --exit",
+    "cover": "nyc --reporter=html --reporter=text yarn test"
   },
   "dependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
     "@babel/node": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
-    "@hapi/joi": "^17.1.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "cross-env": "^7.0.3",
     "errorhandler": "^1.5.1",
     "express": "^4.17.1",
     "helmet": "^4.4.1",
+    "joi": "^17.3.0",
     "morgan": "^1.10.0",
     "winston": "^3.3.3"
   },
@@ -32,7 +31,6 @@
     "babel-plugin-module-resolver": "^4.1.0",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
-    "coveralls": "^3.1.0",
     "mocha": "^8.2.1",
     "nodemon": "^2.0.7",
     "nyc": "^15.1.0",
