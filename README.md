@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.com/aiyeola/rule-validation-api.svg?branch=main)](https://travis-ci.com/aiyeola/rule-validation-api)
 [![Coverage Status](https://coveralls.io/repos/github/aiyeola/rule-validation-api/badge.svg?branch=main)](https://coveralls.io/github/aiyeola/rule-validation-api?branch=main)
+
 # Rule Validation API
 
 This is my solution to the NodeJS Backend Engineer (Intern) assessment test
@@ -9,8 +10,6 @@ This is my solution to the NodeJS Backend Engineer (Intern) assessment test
 - Clone the application and run `yarn install`
 - Run `yarn run start:dev` to start development server
 - Run `yarn run test` to run tests and generate coverage report
-
-**Test Coverage report can be found at `coverage/index.html`**
 
 ## Test JSON payload
 
@@ -32,6 +31,7 @@ This is my solution to the NodeJS Backend Engineer (Intern) assessment test
 ```
 
 Additional features
+
 - Internal logging system
 - Code Test
 
