@@ -9,8 +9,8 @@
     "build": "rm -rf ./src/build && babel ./src/. --out-dir ./src/build --copy-files",
     "start": "node ./src/build/index.js",
     "start:dev": "nodemon --exec babel-node src/index.js",
-    "test": "cross-env NODE_ENV=test mocha --require @babel/register ./src/__test__/*.js --timeout 60000 --exit",
-    "cover": "nyc --reporter=html --reporter=text yarn test"
+    "test": "nyc --reporter=html --reporter=text cross-env NODE_ENV=test mocha --require @babel/register ./src/__test__/*.js --timeout 60000 --exit",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "@babel/cli": "^7.12.10",
@@ -31,6 +31,7 @@
     "babel-plugin-module-resolver": "^4.1.0",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
+    "coveralls": "^3.1.0",
     "mocha": "^8.2.1",
     "nodemon": "^2.0.7",
     "nyc": "^15.1.0",

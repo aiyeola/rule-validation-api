@@ -6,8 +6,7 @@ This is my solution to the NodeJS Backend Engineer (Intern) assessment test
 
 - Clone the application and run `yarn install`
 - Run `yarn run start:dev` to start development server
-- Run `yarn run test` to run tests
-- Run `yarn cover` to run tests with test coverage report
+- Run `yarn run test` to run tests and generate coverage report
 
 **Test Coverage report can be found at `coverage/index.html`**
 
