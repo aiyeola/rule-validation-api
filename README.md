@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/aiyeola/rule-validation-api.svg?branch=main)](https://travis-ci.org/aiyeola/rule-validation-api)
+[![Build Status](https://travis-ci.com/aiyeola/rule-validation-api.svg?branch=main)](https://travis-ci.com/aiyeola/rule-validation-api)
 [![Coverage Status](https://coveralls.io/repos/github/aiyeola/rule-validation-api/badge.svg?branch=main)](https://coveralls.io/github/aiyeola/rule-validation-api?branch=main)
 # Rule Validation API
 
