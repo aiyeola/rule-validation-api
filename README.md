@@ -33,6 +33,6 @@ This is my solution to the NodeJS Backend Engineer (Intern) assessment test
 Additional features
 
 - Internal logging system
-- Code Test
+- Code Test Coverage
 
 ## Deployed at <https://victor-rule-validation-api.herokuapp.com/>
